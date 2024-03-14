@@ -1,0 +1,73 @@
+/*PASTE THIS CODE INTO YOUR OWN REPL.IT*/
+
+
+
+html {
+  /**/
+  height: 100%;
+  width: 100%;
+}
+
+
+.item {
+  /*the class for the list items (li) */
+  float: left;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+  z-index: 8;
+  list-style-type: none;
+  /*removes bullet points from the list items*/
+}
+
+/* .paragraph {
+  z-index: 5;  
+} */
+
+
+#item1 {
+  /*the id for list item 1 */
+  background: tomato;
+}
+
+#item2 {
+  /*the id for list item 2 */
+  background: darkorange;
+  /* position: fixed;
+  top: 30%;
+  bottom: 30%;
+  margin: auto;
+  z-index: 5; */
+
+}
+
+#item3 {
+  /*the id for list item 3 */
+  background: gold;
+  clear: left;
+
+}
+
+#item4 {
+  /*the id for list item 4 */
+  background: limegreen;
+
+}
+
+#item5 {
+  /*the id for list item 5 */
+  background: lightskyblue;
+
+}
+
+#item6 {
+  /*the id for list item 6 */
+  background: mediumorchid;
+
+}
